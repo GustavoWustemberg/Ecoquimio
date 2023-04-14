@@ -362,6 +362,12 @@ nav.show div.icon-close {
   margin-bottom: 0.75rem;
 }
 
+/*=== OUR ANGELS =========================== */
+
+#ourAngels .grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 /*====  CONTACT ============================ */
 #contact .grid {
   gap: 4rem;
@@ -611,3 +617,4 @@ footer .social a:hover {
 }
 
 /* medium devices: 767 > */
+
