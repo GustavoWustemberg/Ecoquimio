@@ -312,17 +312,19 @@ nav.show div.icon-close {
 
 #about .image::before {
   content: '';
-  height: 60%;
+  height: 100%;
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
-  top: -8.3%;
+  top: -12.5%;
   left: -33%;
   z-index: 0;
 }
 
 #about .image img {
   position: relative;
+  width: 90%;
+  left: 50px;
 }
 
 #about .image img,
@@ -533,6 +535,7 @@ footer .social a:hover {
 
   #home .image {
     order: 1;
+    width: 37.5rem;
   }
 
   #home .text {
@@ -545,6 +548,15 @@ footer .social a:hover {
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
+  }
+
+  #about .image img {
+    width: 100%;
+    left: 0;
+  }
+
+  #about .image::before {
+    height: 60%;
   }
 
   /* services */
