@@ -23,7 +23,7 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 259;
+  --hue: 0;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 91% 9%);
   --base-color-second: hsl(var(--hue) 80% 88%);
@@ -144,7 +144,7 @@ body {
 
 .logo img {
   border-radius: 15px;
-  width: 30%;
+  width: 20%;
 }
 
 /*====  NAVIGATION ============================ */
@@ -312,7 +312,7 @@ nav.show div.icon-close {
 
 #about .image::before {
   content: '';
-  height: 100%;
+  height: 60%;
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
@@ -411,7 +411,7 @@ footer .logo {
 }
 
 footer .logo img {
-  width: 50%;
+  width: 35%;
 }
 
 footer .brand p {
