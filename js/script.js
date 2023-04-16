@@ -59,7 +59,8 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials
+  #testimonials header, #testimonials .testimonials,
+  #ourAngels header, #gallery .gallery-item,
   #contact .text, #contact .links,
   footer .brand, footer .social
   `,

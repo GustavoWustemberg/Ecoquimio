@@ -122,9 +122,15 @@ body {
 
 .d-flex {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.d-flex--column {
+  flex-direction: column;
+}
+
+.d-none {
+  display: none;
 }
 
 #header {
@@ -370,6 +376,22 @@ nav.show div.icon-close {
 }
 
 /*=== OUR ANGELS =========================== */
+/* #dog:checked ~ .container.grid.dog .gallery-item {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+  transition: .5s;
+}
+#cat:checked ~ .container.grid .gallery-item {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+  transition: .5s;
+} */
+
+#ourAngels.section {
+  padding: 5rem 0;
+}
 
 #ourAngels .grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -378,17 +400,21 @@ nav.show div.icon-close {
 #ourAngels :is(.gallery-item) {
   background: var(--base-color);
   border-radius: 5px;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 #ourAngels .gallery-item :is(img, .gallery-text) {
   width: 12.5rem;
 }
 #ourAngels .gallery-item :is(img) {
+  margin-top: 25px;
   height: 18.5rem;
   border-radius: 5px;
 }
 #ourAngels .gallery-item :is(.gallery-text) {
-  color: var(--text-color-light);
+  color: #cdc0c0;
+  height: 11rem;
+  margin-bottom: 15px;
 }
 #ourAngels .gallery-item :is(h2) {
   text-align: center;
@@ -643,5 +669,10 @@ footer .social a:hover {
   }
 }
 
-/* medium devices: 767 > */
+@media (max-width: 499px) {
+  #about .image img{
+    width: 80%;
+  }
+}
 
+/* medium devices: 767 > */
