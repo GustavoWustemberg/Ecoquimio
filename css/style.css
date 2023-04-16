@@ -120,6 +120,13 @@ body {
   color: var(--base-color);
 }
 
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #header {
   border-bottom: 1px solid #e4e4e4;
   margin-bottom: 2rem;
@@ -366,6 +373,26 @@ nav.show div.icon-close {
 
 #ourAngels .grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#ourAngels :is(.gallery-item) {
+  background: var(--base-color);
+  border-radius: 5px;
+}
+
+#ourAngels .gallery-item :is(img, .gallery-text) {
+  width: 12.5rem;
+}
+#ourAngels .gallery-item :is(img) {
+  height: 18.5rem;
+  border-radius: 5px;
+}
+#ourAngels .gallery-item :is(.gallery-text) {
+  color: var(--text-color-light);
+}
+#ourAngels .gallery-item :is(h2) {
+  text-align: center;
+  margin: 5px 0;
 }
 
 /*====  CONTACT ============================ */
