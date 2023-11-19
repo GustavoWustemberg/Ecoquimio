@@ -48,24 +48,20 @@ const swiper = new Swiper('.swiper-container', {
 })
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
-const scrollReveal = ScrollReveal({
-  origin: 'top',
-  distance: '30px',
-  duration: 700,
-  reset: true
-})
+// const scrollReveal = ScrollReveal({
+//   origin: 'top',
+//   distance: '30px',
+//   duration: 700,
+//   reset: true
+// })
 
-scrollReveal.reveal(
-  `#home .image, #home .text,
-  #about .image, #about .text,
-  #services header, #services .card,
-  #testimonials header, #testimonials .testimonials,
-  #ourAngels header, #gallery .gallery-item,
-  #contact .text, #contact .links,
-  footer .brand, footer .social
-  `,
-  { interval: 100 }
-)
+// scrollReveal.reveal(
+//   `#home .section, #home .text,
+//   #contact .text, #contact .links,
+//   footer .brand, footer .social
+//   `,
+//   { interval: 100 }
+// )
 
 /* Botão voltar para o topo */
 const backToTopButton = document.querySelector('.back-to-top')

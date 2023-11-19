@@ -5,10 +5,10 @@
   <!-- PAGE INFO -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - Anjos na Terra</title>
+  <title>Home - Ecoquimio</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/images/logo.webp" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
 
   <!-- Icones -->
   <link rel="stylesheet" href="assets/fonts/style.css" />
@@ -17,8 +17,12 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="css/style.css" />
 
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
@@ -30,14 +34,13 @@
 
   <header id="header">
     <nav class="container">
-      <a class="logo" href="index.html"><img src="assets/images/logo.webp" alt="Logo" title="Logo"></a>
+      <a class="logo" href="index.html"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a>
       <!-- menu -->
       <div class="menu">
         <ul class="grid">
           <li><a class="title" href="index.html">Início</a></li>
-          <li><a class="title" href="sobre.html">Sobre Nós</a></li>
-          <li><a class="title" href="servicos.html">Serviços</a></li>
-          <li><a class="title" href="nossos-anjos.html">Nossos Anjos</a></li>
+          <li><a class="title" href="esg.html">ESG</a></li>
+          <li><a class="title" href="trabalhe-conosco.html">Trabalhe conosco</a></li>
           <li><a class="title" href="contato.html">Contato</a></li>
         </ul>
       </div>
@@ -47,23 +50,82 @@
     </nav>
   </header>
 
-  <main>
+  <main id="home">
     <!-- HOME -->
-    <section class="section" id="home">
-      <div class="container grid">
-        <div class="image">
-          <img src="./assets/images/banner.webp" alt="Cachorro tomando banho" title="Cachorro tomando banho" />
-        </div>
-        <div class="text">
-          <h2 class="title">
-            Adote um anjo de quatro patas
-          </h2>
-          <p>
-            Um grupo de pessoas normais, preocupadas com animais abandonados, resolvemos montar esse abrigo em 2015, que está se transformando em uma ONG constituída.
+    <div class="banner" id="banner">
+      <a href="./contato.html" title="Contato"><img src="./assets/images/banner-01.png" title="Banner" alt="Banner"></a>
+      <a href="./esg.html" title="ESG"><img src="./assets/images/banner-02.png" title="Banner" alt="Banner"></a>
+    </div>
+
+    <section class="section">
+
+      <div class="container container--principal-text">
+        <img src="./assets/images/lavanderia.jpg" alt="Lavanderia" title="Lavanderia">
+        <div class="principal-text">
+          <h2 class="title">Produtos para lavanderia</h2>
+          <p class="subtitle">Produtos de lavanderia hospitalar sustentáveis de alto desempenho que limpam logo no
+            primeiro
+            uso. Fornecemos
+            os resultados da mais alta qualidade para lavanderia hospitalar e limpeza de roupa de cama para cuidados com
+            a
+            saúde disponíveis atualmente.
           </p>
-          <a class="button" href="contato.html">Clique aqui para adotar!</a>
         </div>
       </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section">
+
+      <div class="container text-center">
+        <h2 class="title">Economia, segurança e sustentabilidade</h2>
+        <p class="subtitle">Nossa linha de químicos para lavanderias é composta por produtos seguros, que seguem as
+          recomendações da ANVISA e têm alta biodegradabilidade. São produtos superconcentrados que apresentam excelente
+          rendimento, baixo impacto ambiental
+          e eficiência na limpeza.
+        </p>
+        <div class="produtos">
+          <img src="./assets/images/detergente.png" alt="Detergente" title="Detergente">
+          <img src="./assets/images/neutralizante.png" alt="Neutralizante" title="Neutralizante">
+          <img src="./assets/images/removedor.png" alt="Removedor" title="Removedor">
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section mvv">
+      <div class="mvv-item mvv-item--border">
+        <h2 class="title"><i class="icon-target"></i> Missão</h2>
+        <p class="subtitle">Contribuir para um futuro mais sustentável e saudável, fornecendo soluções químicas
+          inovadoras e ecológicas
+          para o setor de lavanderia. Nosso compromisso é liderar a transformação do mercado, impulsionando a eficiência
+          operacional, reduzindo impactos ambientais e promovendo práticas sociais responsáveis.</p>
+      </div>
+
+      <div class="mvv-item mvv-item--border">
+        <h2 class="title"><i class="icon-eye"></i> Visão</h2>
+        <p class="subtitle">Queremos ser a escolha preferida de clientes que buscam soluções eficazes, seguras e
+          ecologicamente
+          conscientes. Ser reconhecidos como líderes na indústria de produtos químicos para lavanderia, destacando-nos
+          não
+          apenas pela inovação e desempenho excepcionais de nossos produtos, mas também pelo nosso compromisso
+          inabalável
+          com os princípios ESG.</p>
+      </div>
+
+      <div class="mvv-item mvv-min-item">
+        <h2 class="title"><i class="icon-handshake"></i> Valores</h2>
+        <ul class="subtitle">
+          <li>Sustentabilidade</li>
+          <li>Responsabilidade Social</li>
+          <li>Inovação Contínua</li>
+          <li>Governança Ética</li>
+          <li>Colaboração</li>
+        </ul>
+      </div>
+
     </section>
 
   </main>
@@ -71,30 +133,44 @@
   <footer class="section">
     <div class="container grid">
       <div class="brand">
-        <a class="logo logo-alt" href="index.html"><img src="assets/images/logo.webp" alt="Logo"
-            title="Logo"></a>
-        <p>©2022 Anjos na Terra.</p>
+        <a class="logo logo-alt" href="index.html"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a>
+        <p>©2023 Ecoquimio.</p>
         <p>Todos os direitos reservados.</p>
       </div>
 
       <div class="social grid">
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://www.instagram.com/Ecoquimio_brasil" target="_blank">
           <i class="icon-instagram"></i>
         </a>
-        <a href="https://facebook.com" target="_blank">
-          <i class="icon-facebook"></i></a>
-        <a href="https://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+       
+        <a href="https://api.whatsapp.com/send?phone=+55119999-9999&text=Oi! Gostaria de agendar um horário"
+          target="_blank"><i class="icon-whatsapp"></i></a>
       </div>
     </div>
   </footer>
-
-  <a href="#home" class="back-to-top"><i class="icon-MiConvcom__dog"></i></a>
 
   <!-- swiper -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   <!-- scrollreveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Slick -->
+  <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.banner').slick({
+        infinite: true,
+        autoplay: true,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    });
+  </script>
 
   <!-- main.js -->
   <script src="js/script.js"></script>

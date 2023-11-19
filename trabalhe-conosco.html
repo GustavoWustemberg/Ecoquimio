@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Ecoquimio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Styles -->
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="container">
+            <a class="logo" href="index.html"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a>
+            <!-- menu -->
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="title" href="index.html">Início</a></li>
+                    <li><a class="title" href="esg.html">ESG</a></li>
+                    <li><a class="title" href="trabalhe-conosco.html">Trabalhe conosco</a></li>
+                    <li><a class="title" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <!-- /menu -->
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
+        </nav>
+    </header>
+
+    <main id="work-with-us">
+        <section class="section">
+            <img src="./assets/images/trabalhe-conosco.png" alt="Lavanderia" title="Lavanderia">
+            <div class="container">
+                <div>
+                    <h2 class="title">Seja nosso colaborador</h2>
+                    <p class="subtitle">Na Ecoquimio, comprometimento, responsabilidade e competência camminhamm lado a
+                        lado com reconhecimmento e crescimento profissional. Profissionais de destaque que encontram em
+                        nossa empresa tem oportunidades para crescer e se desenvolver.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h3 class="title">Vagas Abertas</h3>
+                    <ul class="subtitle">
+                        <li>Administrativo PCD</li>
+                        <li>Jovem Aprendiz</li>
+                        <li>Vendedor Interno</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="section">
+        <div class="container grid">
+            <div class="brand">
+                <a class="logo logo-alt" href="index.html"><img src="assets/images/logo.png" alt="Logo"
+                        title="Logo"></a>
+                <p>©2023 Ecoquimio.</p>
+                <p>Todos os direitos reservados.</p>
+            </div>
+
+            <div class="social grid">
+                <a href="https://www.instagram.com/Ecoquimio_brasil" target="_blank">
+                    <i class="icon-instagram"></i>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=+5511942457241&text=Oi! Gostaria de agendar um horário"
+                    target="_blank"><i class="icon-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Slick -->
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.banner').slick({
+                infinite: true,
+                autoplay: true,
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+
+    <!-- main.js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
