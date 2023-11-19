@@ -293,7 +293,6 @@ nav.show div.icon-close {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background: var(--base-color-second);
 }
 
